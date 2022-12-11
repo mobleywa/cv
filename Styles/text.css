@@ -9,6 +9,7 @@ body{
 .Profile h1{
   font-size: 2.25em;
   color: #7FA5F9;
+  display: inline-block;
 }
 .Profile-Pic {
   width: 300px;
@@ -30,8 +31,7 @@ body{
 }
 .Summary h2{
       font-size: 1.5em;
-      background-color: #7FA5F9;
-      color: 000000;
+      color: #7FA5F9;
       display: inline-block;
       margin-top: 0em;
       margin-left: 10em;
