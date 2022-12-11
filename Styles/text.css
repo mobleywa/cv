@@ -1,0 +1,108 @@
+body{
+  background-color: black;
+  margin-top: 3.125em;
+  margin-bottom: 3.125em;
+}
+.Profile {
+  display: inline-block;
+}
+.Profile h1{
+  font-size: 2.25em;
+  color: #7FA5F9;
+}
+.Profile-Pic {
+  width: 300px;
+  display: inline-block;
+}
+.ProfileBasicInfo{
+  display: inline-block;
+  vertical-align: top;
+}
+.Profile-PhoneNumber{
+  line-height: 10px;
+  margin-bottom: 10px;
+}
+.icons {
+  margin-left: 13px;
+}
+.Summary{
+  display: inline-block;
+}
+.Summary h2{
+      font-size: 1.5em;
+      background-color: #7FA5F9;
+      color: 000000;
+      display: inline-block;
+      margin-top: 0em;
+      margin-left: 10em;
+    }
+.Summary p{
+  color: #ffffff;
+  margin-left:17.1875em;
+  margin-top: 0em;
+}
+
+#SkillList{ 
+margin-left: 9.375em;
+color: #ffffff;
+column-count: 2;
+column-gap:  1px;
+column-rule-width: 1em;
+column-width: 6.25em;
+}
+.icons{
+  display: block;
+  
+}
+.JobPosition{
+  color: #ffffff;
+  margin-left: 10.875em;
+  font-style: italic;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+.ProfileHeaders {
+  font-size: 1,25em;
+  color: #7FA5F9;
+  text-indent:0.625em;
+  margin-top: 0em;
+  margin-bottom: 0rem;
+  
+  display: inline-block;
+}
+.ProfileText {
+    font-size: 1.25em;
+    color: #ffffff;
+    text-indent: 0.625em;
+    display: inline-block;
+    margin-top: 0em;
+    margin-bottom:0em;
+  }
+.LineDivider {
+  background-color: #7FA5F9; 
+  color: #7FA5F9; 
+  height: 0.01em; 
+  border: 0; 
+  width:10.75em; 
+  margin-left:0.625em;
+  display: inline-block;
+}
+.SubTags{
+  font-size: 1.5em;
+  color: #7FA5F9;
+  display: inline-block;
+  margin-left: 7.8175em;
+  margin-bottom: 0.625em;
+}
+.TextList{
+  color:#ffffff;
+  margin-left: 9.375em;
+  margin-top: 0em;
+}
+.components{
+  color: green;
+  margin-left:15.625em;
+  margin-top: 0em;
+}
+@media only screen (min-width: 240px) < (max-width:2160px) {
+}
