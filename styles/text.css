@@ -1,99 +1,84 @@
-body{
-  background-color: black;
-  padding-top: 75px;
-  padding-bottom: 75px;
-}
-.Profile{
-  text-align: center;
-}
-.Profile h1{
+.Profile-Name h1{
   font-family: 'Pinyon Script', cursive;
-  font-size: 4.25em;
+  font-size: 70px;
   color: #ffffff;
   display: inline-block;
 }
-.Profile-Pic {
-  width: 300px;
-}
-.ProfileBasicInfo{
-  display: inline-block;
-  vertical-align: top;
-  text-align: center;
-}
-.Profile-PhoneNumber{
-  line-height: 10px;
-  margin-bottom:30px;
-
-}
-.icons {
-  margin-left: 13px;
-}
-.Summary p{
+.Profile p{
+  margin-top: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size:20px;
   color: #ffffff;
-  margin-left:17.1875em;
-  margin-top: 0em;
-  line-height: 25px;
+  display: inline-block;
+  line-height: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
-
-#SkillList{ 
-margin-left: 9.375em;
-color: #ffffff;
-column-count: 2;
-column-gap:  115px;
-column-width: 6.25em;
-line-height: 25px;
-margin-left: 11.375em;
+.tags{
+  display: inline-block;
+  color: #7FA5F9;
+  font-size:20px;
 }
-
 .JobPosition{
   color: #ffffff;
   margin-left: 10.875em;
-  font-style: italic;
   margin-top: 0em;
   margin-bottom: 0em;
 }
-.ProfileHeaders {
-  font-size: 1,25em;
-  color: #7FA5F9;
-  text-indent:0.625em;
-  margin-top: 0em;
-  margin-bottom: 0rem;
-  
-  display: inline-block;
+.Summary {
+  color: #ffffff;
+  line-height: 25px;
+  position: relative;
+  margin-left: 150px;
+  margin-right: 150px;
 }
-.ProfileText {
-    font-size: 1.625em;
-    color: #ffffff;
-    text-indent: 0.625em;
-    display: inline-block;
-    margin-top: 0em;
-    margin-bottom:0em;
-    
-  }
-.LineDivider {
-  background-color: #7FA5F9; 
-  color: #7FA5F9; 
-  height: 0.01em; 
-  border: 0; 
-  width:10.75em; 
-  margin-left:0.625em;
-  clear: left;
+.Projects{
+  color: #ffffff;
+  line-height: 25px;
+  position: relative;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 .SubTags{
   font-size: 1.5em;
   color: #7FA5F9;
-  display: inline-block;
-  margin-left: 4.8175em;
-  margin-bottom: 0.625em;
+  text-align: left;
 }
 .TextList{
-  color:#ffffff;
-  margin-left: 11.375em;
-  margin-top: 0em;
+  color: #ffffff;
   line-height: 25px;
+  text-align: left;
+  position: relative;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 .components{
   color: green;
   margin-left:15.625em;
   margin-top: 0em;
+}
+.Education{
+  color: #ffffff;
+  line-height: 25px;
+  text-align: left;
+  position: relative;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.vl{
+  color: green;
+  margin-left: 1.625em;
+  margin-top: 0em;
+}
+
+.flex-container{
+  color: #ffffff;
+  column-count: 2;
+  column-gap:  115px;
+  column-width: 6.25em;
+  line-height: 25px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: left;
+  position: relative;
 }
