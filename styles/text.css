@@ -1,59 +1,50 @@
 body{
   background-color: black;
-  margin-top: 3.125em;
-  margin-bottom: 3.125em;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
-.Profile {
-  display: inline-block;
+.Profile{
+  text-align: center;
 }
 .Profile h1{
-  font-size: 2.25em;
-  color: #7FA5F9;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 4.25em;
+  color: #ffffff;
   display: inline-block;
 }
 .Profile-Pic {
   width: 300px;
-  display: inline-block;
 }
 .ProfileBasicInfo{
   display: inline-block;
   vertical-align: top;
+  text-align: center;
 }
 .Profile-PhoneNumber{
   line-height: 10px;
-  margin-bottom: 10px;
+  margin-bottom:30px;
+
 }
 .icons {
   margin-left: 13px;
 }
-.Summary{
-  display: inline-block;
-}
-.Summary h2{
-      font-size: 1.5em;
-      color: #7FA5F9;
-      display: inline-block;
-      margin-top: 0em;
-      margin-left: 10em;
-    }
 .Summary p{
   color: #ffffff;
   margin-left:17.1875em;
   margin-top: 0em;
+  line-height: 25px;
 }
 
 #SkillList{ 
 margin-left: 9.375em;
 color: #ffffff;
 column-count: 2;
-column-gap:  1px;
-column-rule-width: 1em;
+column-gap:  115px;
 column-width: 6.25em;
+line-height: 25px;
+margin-left: 11.375em;
 }
-.icons{
-  display: block;
-  
-}
+
 .JobPosition{
   color: #ffffff;
   margin-left: 10.875em;
@@ -71,12 +62,13 @@ column-width: 6.25em;
   display: inline-block;
 }
 .ProfileText {
-    font-size: 1.25em;
+    font-size: 1.625em;
     color: #ffffff;
     text-indent: 0.625em;
     display: inline-block;
     margin-top: 0em;
     margin-bottom:0em;
+    
   }
 .LineDivider {
   background-color: #7FA5F9; 
@@ -85,24 +77,23 @@ column-width: 6.25em;
   border: 0; 
   width:10.75em; 
   margin-left:0.625em;
-  display: inline-block;
+  clear: left;
 }
 .SubTags{
   font-size: 1.5em;
   color: #7FA5F9;
   display: inline-block;
-  margin-left: 7.8175em;
+  margin-left: 4.8175em;
   margin-bottom: 0.625em;
 }
 .TextList{
   color:#ffffff;
-  margin-left: 9.375em;
+  margin-left: 11.375em;
   margin-top: 0em;
+  line-height: 25px;
 }
 .components{
   color: green;
   margin-left:15.625em;
   margin-top: 0em;
-}
-@media only screen (min-width: 240px) < (max-width:2160px) {
 }
