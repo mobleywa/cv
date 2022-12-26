@@ -1,0 +1,16 @@
+body{
+  background-color: black;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.Profile{
+  text-align: center;
+}
+.Profile-Pic{
+  width: 20%;
+  margin-bottom: 20px;
+}
+.icons{
+  text-align: center;
+display: inline-block;
+}
